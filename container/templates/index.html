@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Relationships Visualizer</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+  #output {
+    margin-top: 20px;
+    width: 80%;
+  }
+</style>
+</head>
+<body>
+
+<textarea id="inputText" placeholder="Enter text here..." rows="10" cols="50"></textarea>
+<button onclick="getRelationships()">Submit</button>
+
+<div id="output"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+  async function getRelationships() {
+    const text = document.getElementById('inputText').value;
+    try {
+      const response = await axios.post('relationships', { text });
+      const relationships = response.data.relationships;
+      const outputDiv = document.getElementById('output');
+      outputDiv.innerHTML = JSON.stringify(relationships, null, 2);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  }
+</script>
+
+</body>
+</html>

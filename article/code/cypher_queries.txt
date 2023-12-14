@@ -1,0 +1,4 @@
+These are the CYPHER queries (for the neo4j graph created with our NLP pipeline)  used to retrieve chemicals associated with cholestasis and steatosis adverse outcomes
+MATCH (n)-[r]-(m:COMPOUND) WHERE n.name CONTAINS "holestasis" RETURN n,r,m
+MATCH (n)-[r]-(m:COMPOUND) WHERE n.name CONTAINS "teatosis" RETURN n,r,m
+

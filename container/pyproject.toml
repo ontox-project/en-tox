@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "estiv2022"
+version = "0.1.0"
+description = ""
+authors = ["Marie Corradi <marie.corradi@hu.nl>", "Thomas luechtefeld <tom@insilica.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+spacy = "3.6.1"
+flask = "3.0.0"
+pandas = "2.1.1"
+en-tox = { url = "https://huprdontoxnlpst.blob.core.windows.net/en-tox/en_tox-2.0.0-py3-none-any.whl" }
+# scispacy = "0.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
