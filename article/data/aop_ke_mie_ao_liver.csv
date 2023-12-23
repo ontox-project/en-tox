@@ -1,0 +1,118 @@
+AOP,AOP,Title,Event,EventType,Description,NLP ASPIS
+Aop:27,27,"Cholestatic Liver Injury induced by Inhibition
+of the Bile Salt Export Pump (ABCB11)",Event:288,KeyEvent,"Activation of specific nuclear receptors, Transcriptional change","not found - but this is very general. Actually refers to the bile acid receptor, but nothing was found queying that term."
+Aop:27,27,"Cholestatic Liver Injury induced by Inhibition
+of the Bile Salt Export Pump (ABCB11)",Event:214,KeyEvent,"Bile accumulation, Pathological condition","""retention of bile acids"", ""increases in bile acid levels"""
+Aop:27,27,"Cholestatic Liver Injury induced by Inhibition
+of the Bile Salt Export Pump (ABCB11)",Event:357,AdverseOutcome,"Cholestasis, Pathology","""cholestasis"""
+Aop:27,27,"Cholestatic Liver Injury induced by Inhibition
+of the Bile Salt Export Pump (ABCB11)",Event:149,KeyEvent,"Increase, Inflammation","""increased inflammation"""
+Aop:27,27,"Cholestatic Liver Injury induced by Inhibition
+of the Bile Salt Export Pump (ABCB11)",Event:41,MolecularInitiatingEvent,"Inhibition, Bile Salt Export Pump (ABCB11)","""Inhibition of the bile salt export protein"""
+Aop:27,27,"Cholestatic Liver Injury induced by Inhibition
+of the Bile Salt Export Pump (ABCB11)",Event:209,KeyEvent,Peptide Oxidation,not found
+Aop:27,27,"Cholestatic Liver Injury induced by Inhibition
+of the Bile Salt Export Pump (ABCB11)",Event:249,KeyEvent,"Production, Reactive oxygen species","""ROS generation"", ""increase in ROS production"""
+Aop:27,27,"Cholestatic Liver Injury induced by Inhibition
+of the Bile Salt Export Pump (ABCB11)",Event:87,KeyEvent,"Release, Cytokine","""synthesis of pro-inflammatory cytokines"", ""generation of pro-inflammatory cytokines"""
+Aop:34,34,LXR Activation to Liver Steatosis,Event:291,KeyEvent,"Accumulation, Triglyceride","""storage of triglycerides"""
+Aop:34,34,LXR Activation to Liver Steatosis,Event:66,KeyEvent,"Activation, ChREBP",not found
+Aop:34,34,LXR Activation to Liver Steatosis,Event:116,KeyEvent,"Activation, FAS","""fatty acid synthase"""
+Aop:34,34,LXR Activation to Liver Steatosis,Event:167,MolecularInitiatingEvent,"Activation, LXR","""Activation of liver X receptor"""
+Aop:34,34,LXR Activation to Liver Steatosis,Event:258,KeyEvent,"Activation, SCD-1",not found
+Aop:34,34,LXR Activation to Liver Steatosis,Event:264,KeyEvent,"Activation, SREBP-1c","""induction of SREBP1 (sterol-regulatory-element-binding protein"""
+Aop:34,34,LXR Activation to Liver Steatosis,Event:176,KeyEvent,"Damaging, Mitochondria","""damage in mitochondria"",""depolarization of isolated hepatic mitochondria"""
+Aop:34,34,LXR Activation to Liver Steatosis,Event:115,KeyEvent,"Increase, FA Influx","""upregulation of fatty acid uptake"""
+Aop:34,34,LXR Activation to Liver Steatosis,Event:345,AdverseOutcome,"N/A, Liver Steatosis","""steatosis"""
+Aop:34,34,LXR Activation to Liver Steatosis,Event:228,MolecularInitiatingEvent,peroxisome proliferator activated receptor promoter demethylation,not found
+Aop:34,34,LXR Activation to Liver Steatosis,Event:89,KeyEvent,"Synthesis, De Novo FA","""increased de novo lipogenesis, ""increased fatty acid synthesis"""
+Aop:34,34,LXR Activation to Liver Steatosis,Event:54,KeyEvent,"Up Regulation, CD36","not found, could have been found in 35491243"
+Aop:36,36,"Peroxisomal Fatty Acid Beta-Oxidation
+Inhibition Leading to Steatosis",Event:327,KeyEvent,"Accumulation, Fatty acid","""accumulation of saturated fatty acids"""
+Aop:36,36,"Peroxisomal Fatty Acid Beta-Oxidation
+Inhibition Leading to Steatosis",Event:8,KeyEvent,"Decreased, 3-hydroxyacyl-CoA dehydrogenase type-2 activity",not found
+Aop:36,36,"Peroxisomal Fatty Acid Beta-Oxidation
+Inhibition Leading to Steatosis",Event:140,KeyEvent,"Decreased, HSD17B10 expression",not found
+Aop:36,36,"Peroxisomal Fatty Acid Beta-Oxidation
+Inhibition Leading to Steatosis",Event:179,KeyEvent,"Decreased, Mitochondrial fatty acid beta-oxidation","""impairment of mitochondrial fatty acid oxidation"", ""decrease fatty acid oxidation"""
+Aop:36,36,"Peroxisomal Fatty Acid Beta-Oxidation
+Inhibition Leading to Steatosis",Event:231,MolecularInitiatingEvent,"Decreased, PPAR-alpha activation",not found
+Aop:36,36,"Peroxisomal Fatty Acid Beta-Oxidation
+Inhibition Leading to Steatosis",Event:232,MolecularInitiatingEvent,"Decreased, PPAR-beta activation",not found
+Aop:36,36,"Peroxisomal Fatty Acid Beta-Oxidation
+Inhibition Leading to Steatosis",Event:233,MolecularInitiatingEvent,"Decreased, PPAR-gamma activation",not found
+Aop:36,36,"Peroxisomal Fatty Acid Beta-Oxidation
+Inhibition Leading to Steatosis",Event:459,AdverseOutcome,"Increased, Liver Steatosis","""worsened hepatic steatosis"", ""'increased adiposity and hepatic steatosis'"""
+Aop:57,57,AhR activation to steatosis,Event:327,KeyEvent,"Accumulation, Fatty acid","""accumulation of saturated fatty acids"""
+Aop:57,57,AhR activation to steatosis,Event:455,AdverseOutcome,"Accumulation, Liver lipid","""lipid accumulation"""
+Aop:57,57,AhR activation to steatosis,Event:291,KeyEvent,"Accumulation, Triglyceride","""storage of triglycerides"""
+Aop:57,57,AhR activation to steatosis,Event:18,MolecularInitiatingEvent,"Activation, AhR",not found; not recognized as entity
+Aop:57,57,AhR activation to steatosis,Event:216,KeyEvent,"Decreased, PCK1 expression (control point for glycolysis/gluconeogenesis pathway)",not found
+Aop:57,57,AhR activation to steatosis,Event:465,KeyEvent,"Increased, FA Influx","""upregulation of fatty acid uptake"""
+Aop:57,57,AhR activation to steatosis,Event:467,KeyEvent,"Increased, LDL uptake","""upregulation of fatty acid uptake"""
+Aop:57,57,AhR activation to steatosis,Event:451,KeyEvent,"Inhibition, Mitochondrial fatty acid beta-oxidation","""impairment of mitochondrial fatty acid oxidation"", ""decrease fatty acid oxidation"""
+Aop:57,57,AhR activation to steatosis,Event:450,KeyEvent,"Suppression, VLDL secretion",“impairment of VLDL secretion”
+Aop:57,57,AhR activation to steatosis,Event:54,KeyEvent,"Up Regulation, CD36","not found, could have been found in 35491243"
+Aop:57,57,AhR activation to steatosis,Event:80,KeyEvent,"Up Regulation, CYP1A1","not found, could have been found in 36150442"
+Aop:57,57,AhR activation to steatosis,Event:466,KeyEvent,"Up Regulation, LDLR (low density lipoprotein receptor)",not found
+Aop:57,57,AhR activation to steatosis,Event:462,KeyEvent,"Up Regulation, SCD-1",not found
+Aop:58,58,NR1I3 suppression to steatosis,Event:327,KeyEvent,"Accumulation, Fatty acid","""accumulation of saturated fatty acids"""
+Aop:58,58,NR1I3 suppression to steatosis,Event:66,KeyEvent,"Activation, ChREBP",not found
+Aop:58,58,NR1I3 suppression to steatosis,Event:167,MolecularInitiatingEvent,"Activation, LXR","""Activation of liver X receptor"""
+Aop:58,58,NR1I3 suppression to steatosis,Event:457,KeyEvent,"Activation, SREBF1",not found
+Aop:58,58,NR1I3 suppression to steatosis,Event:458,KeyEvent,"Increased, De Novo FA synthesis","""increased fatty acid synthesis"""
+Aop:58,58,NR1I3 suppression to steatosis,Event:465,KeyEvent,"Increased, FA Influx","""upregulation of fatty acid uptake"""
+Aop:58,58,NR1I3 suppression to steatosis,Event:459,AdverseOutcome,"Increased, Liver Steatosis","""worsened hepatic steatosis"", ""'increased adiposity and hepatic steatosis'"""
+Aop:58,58,NR1I3 suppression to steatosis,Event:454,KeyEvent,"Increased, Triglyceride formation","not found, nothing specific to formation, only to increase in triglycerides"
+Aop:58,58,NR1I3 suppression to steatosis,Event:451,KeyEvent,"Inhibition, Mitochondrial fatty acid beta-oxidation","""impairment of mitochondrial fatty acid oxidation"", ""decrease fatty acid oxidation"""
+Aop:58,58,NR1I3 suppression to steatosis,Event:468,MolecularInitiatingEvent,"Inhibition, PPAR alpha",not found
+Aop:58,58,NR1I3 suppression to steatosis,Event:228,MolecularInitiatingEvent,peroxisome proliferator activated receptor promoter demethylation,not found
+Aop:58,58,NR1I3 suppression to steatosis,Event:456,MolecularInitiatingEvent,"Suppression, Constitutive androstane receptor, NR1l3",not found
+Aop:58,58,NR1I3 suppression to steatosis,Event:470,KeyEvent,"Up Regulation, Acetyl-CoA carboxylase-1 (ACC-1)",not found
+Aop:58,58,NR1I3 suppression to steatosis,Event:54,KeyEvent,"Up Regulation, CD36","not found, could have been found in 35491243"
+Aop:58,58,NR1I3 suppression to steatosis,Event:463,KeyEvent,"Up Regulation, FAS","""fatty acid synthase'. not found, could have been found in 25461557"
+Aop:58,58,NR1I3 suppression to steatosis,Event:462,KeyEvent,"Up Regulation, SCD-1",not found
+Aop:59,59,HNF4A suppression to steatosis,Event:461,MolecularInitiatingEvent,"Suppression, HNF4alpha",not found
+Aop:60,60,PXR activation to steatosis,Event:327,KeyEvent,"Accumulation, Fatty acid","""accumulation of saturated fatty acids"""
+Aop:60,60,PXR activation to steatosis,Event:245,MolecularInitiatingEvent,"Activation, PXR/SXR",not found
+Aop:60,60,PXR activation to steatosis,Event:477,KeyEvent,"Decreased, Ketogenesis",not found
+Aop:60,60,PXR activation to steatosis,Event:179,KeyEvent,"Decreased, Mitochondrial fatty acid beta-oxidation","""impairment of mitochondrial fatty acid oxidation"", ""decrease fatty acid oxidation"""
+Aop:60,60,PXR activation to steatosis,Event:472,KeyEvent,"Down Regulation, CPT1A",not found
+Aop:60,60,PXR activation to steatosis,Event:474,KeyEvent,"Down Regulation, HMGCS2",not found
+Aop:60,60,PXR activation to steatosis,Event:465,KeyEvent,"Increased, FA Influx","""upregulation of fatty acid uptake"""
+Aop:60,60,PXR activation to steatosis,Event:459,AdverseOutcome,"Increased, Liver Steatosis","""worsened hepatic steatosis"", ""'increased adiposity and hepatic steatosis'"""
+Aop:60,60,PXR activation to steatosis,Event:454,KeyEvent,"Increased, Triglyceride formation","nothing specific to formation, only to increase in triglycerides"
+Aop:60,60,PXR activation to steatosis,Event:471,KeyEvent,"Inhibition, FoxA2",not found
+Aop:60,60,PXR activation to steatosis,Event:54,KeyEvent,"Up Regulation, CD36","not found, could have been found in 35491243"
+Aop:60,60,PXR activation to steatosis,Event:462,KeyEvent,"Up Regulation, SCD-1",not found
+Aop:61,61,NRF2/FXR to steatosis,Event:483,KeyEvent,"Activation, LXR alpha","""LXRŒ± stimulation"""
+Aop:61,61,NRF2/FXR to steatosis,Event:879,KeyEvent,"Activation, MTTP",not found
+Aop:61,61,NRF2/FXR to steatosis,Event:479,MolecularInitiatingEvent,"Activation, NR1H4",not found
+Aop:61,61,NRF2/FXR to steatosis,Event:478,MolecularInitiatingEvent,"Activation, NRF2","""enhanced expression of the nuclear translocation of NF-E2-related factor (Nrf2)"""
+Aop:61,61,NRF2/FXR to steatosis,Event:227,KeyEvent,"Activation, PPARŒ±","""PPARŒ± stimulation"", ""activation of peroxisome proliferator-activated receptor"""
+Aop:61,61,NRF2/FXR to steatosis,Event:480,KeyEvent,"Activation, SHP","""increase in liver Fxr-Shp-Lrh-1 signaling"""
+Aop:61,61,NRF2/FXR to steatosis,Event:482,KeyEvent,"Decreased, DHB4/HSD17B4",not found
+Aop:61,61,NRF2/FXR to steatosis,Event:880,KeyEvent,"Increased, ApoB100",not found
+Aop:61,61,NRF2/FXR to steatosis,Event:458,KeyEvent,"Increased, De Novo FA synthesis","""increased fatty acid synthesis"""
+Aop:61,61,NRF2/FXR to steatosis,Event:459,AdverseOutcome,"Increased, Liver Steatosis","""worsened hepatic steatosis"", ""'increased adiposity and hepatic steatosis'"""
+Aop:61,61,NRF2/FXR to steatosis,Event:881,KeyEvent,"Increased, Triglyceride","""hypertriglyceridemia"", ""increase in the triglyceride level"", ""increase in hepatic triglycerides"""
+Aop:61,61,NRF2/FXR to steatosis,Event:451,KeyEvent,"Inhibition, Mitochondrial fatty acid beta-oxidation","""impairment of mitochondrial fatty acid oxidation"", ""decrease fatty acid oxidation"""
+Aop:61,61,NRF2/FXR to steatosis,Event:878,KeyEvent,"Inhibition, SREBP1c","""suppressed AKT/SREBP1/FASN signaling"""
+Aop:62,62,AKT2 activation to steatosis,Event:484,KeyEvent,"Activation, AKT2",not found
+Aop:62,62,AKT2 activation to steatosis,Event:457,KeyEvent,"Activation, SREBF1",not found
+Aop:62,62,AKT2 activation to steatosis,Event:459,AdverseOutcome,"Increased, Liver Steatosis","""worsened hepatic steatosis"", ""'increased adiposity and hepatic steatosis'"""
+Aop:62,62,AKT2 activation to steatosis,Event:486,MolecularInitiatingEvent,systemic inflammation leading to hepatic steatosis,"""systemic inflammation was increased"""
+Aop:232,232,NFE2/Nrf2 repression to steatosis,Event:1421,KeyEvent,"Activated, LXR","""Activation of liver X receptor"""
+Aop:232,232,NFE2/Nrf2 repression to steatosis,Event:1418,AdverseOutcome,"Increased, steatosis","""worsened hepatic steatosis"", ""'increased adiposity and hepatic steatosis'"""
+Aop:232,232,NFE2/Nrf2 repression to steatosis,Event:1417,MolecularInitiatingEvent,NFE2/Nrf2 repression,"""loss of Nrf2"", ""Nrf2 deficiency"""
+Aop:232,232,NFE2/Nrf2 repression to steatosis,Event:1424,KeyEvent,"Reduced, fatty acid beta oxidation","""impairment of mitochondrial fatty acid oxidation"", ""decrease fatty acid oxidation"""
+Aop:232,232,NFE2/Nrf2 repression to steatosis,Event:1419,KeyEvent,"Reduced, FXR activity",not found
+Aop:232,232,NFE2/Nrf2 repression to steatosis,Event:1423,KeyEvent,"Reduced, HSD17B4 activity",not found
+Aop:232,232,NFE2/Nrf2 repression to steatosis,Event:1422,KeyEvent,"Reduced, PPARalpha",not found
+Aop:232,232,NFE2/Nrf2 repression to steatosis,Event:1420,KeyEvent,"Reduced, SHP activity",not found
+Aop:318,318,GR activation leading to hepatic steatosis,Event:291,KeyEvent,"Accumulation, Triglyceride","""storage of triglycerides"""
+Aop:318,318,GR activation leading to hepatic steatosis,Event:122,MolecularInitiatingEvent,"Activation, Glucocorticoid Receptor","""better glucocorticoid receptor phosphorylation"""
+Aop:318,318,GR activation leading to hepatic steatosis,Event:1834,KeyEvent,"Decrease, Acyl-CoA dehydrogenases",not found
+Aop:318,318,GR activation leading to hepatic steatosis,Event:860,KeyEvent,"Decreased, Mitochondrial Fatty Acid Beta Oxidation","""impairment of mitochondrial fatty acid oxidation"", ""decrease fatty acid oxidation"""
+Aop:318,318,GR activation leading to hepatic steatosis,Event:459,AdverseOutcome,"Increased, Liver Steatosis","""worsened hepatic steatosis"", ""'increased adiposity and hepatic steatosis'"""
+Aop:421,421,PPARG activation leading to intrahepatic cholestasis,Event:1917,KeyEvent,"Altered gene expression, NRF2 dependent antioxidant pathway","""enhanced expression of the nuclear translocation of NF-E2-related factor (Nrf2)"", ""activation of Nrf2 defense pathway"""
