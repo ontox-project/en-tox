@@ -1,0 +1,14 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Corradi"
+  given-names: "Marie"
+- family-names: "Luechtefeld"
+  given-names: "Thomas"
+- family-names: "Teunis"
+  given-names: "Marc"
+title: "en-tox: a simple NLP model to extract toxicological information from scientific text."
+version: 1.0
+doi: 10.5281/zenodo.10610597
+date-released: 2024-02-02
+url: "https://github.com/ontox-project/en-tox/"
