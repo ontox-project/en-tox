@@ -1,5 +1,12 @@
 # docker build -t entox .
 # docker run -it -v "$(pwd)":/app -p 5067:5000 entox /bin/bash
+
+# Tag the built image for Docker Hub. Replace 'your_dockerhub_username' with your actual Docker Hub username:
+# docker tag entox your_dockerhub_username/entox:latest
+
+# Push the tagged image to Docker Hub. Make sure you are logged in to Docker Hub via 'docker login':
+# docker push your_dockerhub_username/entox:latest
+
 # Use the specified image as the base
 FROM python:3.10-slim-buster
 
