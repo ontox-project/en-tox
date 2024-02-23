@@ -5,7 +5,7 @@
 # docker tag entox your_dockerhub_username/entox:latest
 
 # Push the tagged image to Docker Hub. Make sure you are logged in to Docker Hub via 'docker login':
-# docker push your_dockerhub_username/entox:latest
+#  docker push your_dockerhub_username/entox:latest
 
 # Use the specified image as the base
 FROM python:3.10-slim-buster
@@ -18,13 +18,23 @@ COPY pyproject.toml poetry.lock /app/
 
 # Install Poetry
 RUN apt-get update && apt-get install -y curl
-RUN curl -sSL https://install.python-poetry.org | python - 
+RUN curl -sSL https://install.python-poetry.org | python -
 ENV PATH="/root/.local/bin:$PATH"
 
 # Install project dependencies
 RUN poetry config virtualenvs.create false \
   && poetry install --no-dev --no-interaction --no-ansi
 
-# RUN pip install https://huprdontoxnlpst.blob.core.windows.net/en-tox/en_tox-2.0.0-py3-none-any.whl
+# Copy the rest of your application's code
+COPY ./ /app
 
+# Expose the port the app runs on
 EXPOSE 5000
+
+# Set environment variables
+ENV FLASK_APP=app.py
+ENV FLASK_RUN_HOST=0.0.0.0
+ENV FLASK_ENV=production
+
+# Start the Flask application
+CMD ["flask", "run"]

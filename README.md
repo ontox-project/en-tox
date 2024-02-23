@@ -35,7 +35,7 @@ Run in your terminal, from the "container" directory:
 
 ```
 docker build -t entox .
-docker run -p 5068:5000 entox
+docker run -p 5000:5000 entox
 python app.py
 ```
 
@@ -47,5 +47,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"text": "$YOUR_TEXT", "cau
 
 where "text" is the text you are interested in extracting relationship from, "cause" is the cause you are interested in ("COMPOUND" or "PHENOTYPE") and effect the outcome the cause triggers ("PHENOTYPE").
 The output obtained will be a list of triplets representing all relationships extracted (if any) as (cause, causal verb, effect).
+
+For ease of use, the pre-built image is available on [DockerHub](https://hub.docker.com/repository/docker/marieco/entox/general).
 
 You can also directly integrate/adapt the model and code (main.py) in your own pipeline. In this case please reference our work as [xxx ref Corradi et al.]

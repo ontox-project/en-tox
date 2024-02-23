@@ -14,6 +14,7 @@ custom_valid_values = {
 @app.route('/relationships', methods=['POST'])
 @validate_relationship_input(valid_values=custom_valid_values)
 def get_relationships(text, cause, effect):
+    #text = request.form['input_text'] if we don't use an interface
     relationships = main.entox_parse(text, cause=cause, effect=effect)
     return jsonify({"relationships": relationships})
 
