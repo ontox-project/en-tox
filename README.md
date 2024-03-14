@@ -1,4 +1,4 @@
-# en-tox: a simple NLP model to extract toxicological information from scientific text. ![image](https://github.com/ontox-project/en-tox/assets/7207440/578363a3-1d4c-4567-b282-24c76d736a14)
+# en-tox: a simple NLP model to extract toxicological information from scientific text. [![DOI](https://zenodo.org/badge/731658957.svg)](https://zenodo.org/doi/10.5281/zenodo.10610596)
 
 
 This is the repository containing the work described in the paper "The application of Natural Language Processing for the extraction of toxicological mechanistic information with the container to run the en-tox model extracting relationships between toxicological entities". The "article" folder contains the code  and data files used for the study. The "container" folder contains all code to run the NLP pipeline in isolation. This comprises an updated version of the NER model (to spaCy v3.6) as well as a cleaned-up relationship extraction pipeline, packaged in a Flask application and a Docker container. Instructions on how to run the later are detailed below.
