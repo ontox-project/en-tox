@@ -5,7 +5,7 @@ This is the repository containing the work described in the paper "The applicati
 
 ## The en-tox model
 
-The Named Entity Recognition model used in the study, referred to here as en-tox, was developed in the scope of the DARTPaths project (link to Xpaths repo/paper). It was trained to recognize 7 entity types, which were annotated using the following instructions:
+The Named Entity Recognition model used in the study, referred to here as en-tox, was developed in the scope of the [DARTPaths project](https://nc3rs.org.uk/crackit/dartpaths). It was trained to recognize 7 entity types, which were annotated using the following instructions:
 * COMPOUND: the smallest unit of a generic/molecular name. For example, we would label “butafenacil” or “C20H18ClF3N2O6” as a compound, but not categories of compounds, such as “herbicide”.
 * PHENOTYPE: We include the "largest possible" phenotype, i.e., the most specific possible. For example in “increased death of liver cells”, we have phenotype (“death”), attribute/modifier (“increased”) and object (“liver cells”). We then label the complete group of words. However, do not include negations in the phenotype. For example, if the text is “no increase of liver weight is observed”, the phenotype should be “increase of liver weight”.
 * ORGANISM: We consider both the biological meaning and the “implied” meaning. For example, we will label “plant” as an organism, even if it is not species-specific. Similarly, we will label “sample” or “participant” as organisms, as they refer to a human organism
